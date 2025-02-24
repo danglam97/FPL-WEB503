@@ -18,12 +18,10 @@ Dự án này là một ứng dụng Node.js sử dụng mô hình MVC (Model-Vi
 - git clone <url_repository>
 - cd <project_directory>
 - npm i
+- npm link
 - tạo các thư mục theo M-V-C và tạo các file theo yêu cầu 
-- mở terminal chọn git bash rồi chạy lệnh
-- câu lệnh tạo  mkdir -p src/controllers src/models src/routes src/views src/config src/middleware src/validator
-- tạo các file theo các thư mục
-- câu lệnh tạo touch src/middleware/auth.js src/config/db.js src/routes/authRouter.js src/controllers/authController.js src/models/User.js src/validator/authValidate.js
-- thay đổi cấu hính file .env nếu chưa có .env thì tạo 1 file .env rồi thay đổi cấu hình theo máy của mình
+- mở terminal chọn git bash rồi chạy lệnh để tạo các thư mục các file mình cần thiết
+- fplweb503 producs
 ## các cấu hình env
 - PORT=3000
 - MONGO_URI = mongodb://localhost:27017/(your_database_name)
